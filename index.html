@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>videojs-panorama Demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/bower_components/videojs_5/dist/video-js.css" rel="stylesheet">
-    <link href="/dist/videojs-panorama.css" rel="stylesheet">
+    <link href="./bower_components/videojs_5/dist/video-js.css" rel="stylesheet">
+    <link href="./dist/videojs-panorama.css" rel="stylesheet">
     <style>
         body{
             margin: 0;
@@ -34,14 +34,15 @@
 <div class="player_wrapper">
     <div class="player_container">
         <video id="videojs-panorama-player" class="video-js vjs-default-skin" poster="assets/poster.jpg"  crossorigin="anonymous" controls>
-            <source src="assets/shark.mp4" type='video/mp4'>
+            <!--<source src="assets/shark.mp4" type='video/mp4'>-->
+            <source src="https://995f87.entrypoint.cloud.wowza.com/app-d82f/ngrp:ec5d783f_all/playlist.m3u8" type='application/x-mpegURL'>
         </video>
     </div>
 </div>
 
-<script src="/bower_components/videojs_5/dist/video.js"></script>
-<script src="/bower_components/three.js/three.js"></script>
-<script src="/dist/videojs-panorama.v5.js"></script>
+<script src="./bower_components/videojs_5/dist/video.js"></script>
+<script src="./bower_components/three.js/three.js"></script>
+<script src="./dist/videojs-panorama.v5.js"></script>
 <script>
     function isMobile() {
         var check = false;
