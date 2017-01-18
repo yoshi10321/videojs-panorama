@@ -1,0 +1,8 @@
+title: Videojs-panorama
+description: "a plugin for videojs run a full 360 degree panorama video. "
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
